@@ -11,7 +11,7 @@
 2. VGG16転移学習モデル
 - シンプル構成の約1/10の学習データでほぼ同等のパフォーマンスを得ることができた。学習データを増やすことでOver Fit(過学習)を低減させ、より高い精度の実現が見込まれる。
 
-  ![img](https://github.com/tkshim/Picture/blob/master/Keras_Performance_Hikaku.png)
+  ![img](https://github.com/tkshim/Picture/blob/master/keras_performance_hikaku.png)
 
 ## ■結論
 - 学習データが少ない段階においては、転移学習を利用することが一つのソリューションとなり得る。
