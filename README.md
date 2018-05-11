@@ -11,9 +11,9 @@
 - epochが40超えると過学習のためlossが上昇傾向に転じている（図2）。　　
 
 ![img](https://github.com/tkshim/Picture/blob/master/keras_accuracy.png)  
-【図1】  
+                  【図1】  
 ![img](https://github.com/tkshim/Picture/blob/master/keras_loss.png)  
-【図2】  
+                  【図2】  
 
 2. VGG16転移学習モデル
 - シンプル構成の約1/10の学習データでほぼ同等のパフォーマンスを得ることができた。学習データを増やすことでOver Fit(過学習)を低減させ、より高い精度の実現が見込まれる。
