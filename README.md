@@ -7,14 +7,14 @@
 
 ## ■検証結果
 1. シンプル構成
-- Testスコア81.3％のモデルを作成することができた。14000枚で追加検証を実施、87.4%と更なる精度向上を達成できた。
+- Testスコア81.3％のモデルを作成することができた。14000枚で追加検証を実施、87.4%と更なる精度向上を達成できた。　　
 　
-【図1】
-![img](https://github.com/tkshim/Picture/blob/master/keras_accuracy.png)
+【図1】　　
+![img](https://github.com/tkshim/Picture/blob/master/keras_accuracy.png)　　
 　
-【図2】
-![img](https://github.com/tkshim/Picture/blob/master/keras_loss.png)
-*epoch40超えると過学習のためlossが上昇傾向に転じていると思われる。
+【図2】　　
+![img](https://github.com/tkshim/Picture/blob/master/keras_loss.png)　　
+*epoch40超えると過学習のためlossが上昇傾向に転じていると思われる。　　
 
 2. VGG16転移学習モデル
 - シンプル構成の約1/10の学習データでほぼ同等のパフォーマンスを得ることができた。学習データを増やすことでOver Fit(過学習)を低減させ、より高い精度の実現が見込まれる。
