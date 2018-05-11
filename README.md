@@ -8,9 +8,11 @@
 ## ■検証結果
 1. シンプル構成
 - Testスコア81.3％のモデルを作成することができた。14000枚で追加検証を実施、87.4%と更なる精度向上を達成できた。
-[図1]
+　
+【図1】
 ![img](https://github.com/tkshim/Picture/blob/master/keras_accuracy.png)
-[図2]
+　
+【図2】
 ![img](https://github.com/tkshim/Picture/blob/master/keras_loss.png)
 *epoch40超えると過学習のためlossが上昇傾向に転じていると思われる。
 
